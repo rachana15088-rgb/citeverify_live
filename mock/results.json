@@ -1,0 +1,49 @@
+{
+  "document": { "title": "Effects of Nano-Coatings on Surface Durability", "claims_total": 4 },
+  "results": [
+    {
+      "id": "c1",
+      "claim": "A previous study found that the coating improved durability by 35%.",
+      "citation": { "marker": "[1]", "title": "Pilot evaluation of a polymer nano-coating", "authors": "Rao, S.; Iyer, K.", "year": 2021, "doi": "10.0000/example.001", "url": "https://example.com/paper1" },
+      "evidence": { "passage": "In a small pilot group, durability improved by 12-15% under bench testing.", "location": "Abstract", "source_access": "abstract_only" },
+      "verdict": "partly_supported",
+      "explanation": "The paper reports an improvement in a pilot group, but 12-15%, not 35%.",
+      "confidence": 0.58,
+      "flags": ["number_mismatch", "abstract_only"],
+      "review": { "status": "pending", "reviewer_note": "", "history": [] }
+    },
+    {
+      "id": "c2",
+      "claim": "The compound showed zero cytotoxicity in all tested cell lines.",
+      "citation": { "marker": "[2]", "title": "Cell viability under compound exposure", "authors": "Mehta, A.", "year": 2020, "doi": "10.0000/example.002", "url": "https://example.com/paper2" },
+      "evidence": { "passage": "We observed 18% cell mortality at the highest concentration.", "location": "Results, Section 3.2", "source_access": "full_text" },
+      "verdict": "contradictory",
+      "explanation": "The source reports 18% cell mortality, which contradicts the claim of zero cytotoxicity.",
+      "confidence": 0.86,
+      "flags": ["direct_contradiction"],
+      "review": { "status": "pending", "reviewer_note": "", "history": [] }
+    },
+    {
+      "id": "c3",
+      "claim": "The model achieved an exact match score of 87.2% on the benchmark.",
+      "citation": { "marker": "[3]", "title": "A benchmark for reading comprehension", "authors": "Lee, J.; Kumar, P.", "year": 2022, "doi": "10.0000/example.003", "url": "https://example.com/paper3" },
+      "evidence": { "passage": "Our best model reaches an exact match score of 87.2% on the test set.", "location": "Results, Table 2", "source_access": "full_text" },
+      "verdict": "supported",
+      "explanation": "The reported figure and the scope match the claim.",
+      "confidence": 0.93,
+      "flags": [],
+      "review": { "status": "pending", "reviewer_note": "", "history": [] }
+    },
+    {
+      "id": "c4",
+      "claim": "Studies show a 60% reduction in energy use with this method.",
+      "citation": { "marker": "[4]", "title": "Unknown", "authors": "Unknown", "year": null, "doi": "10.9999/does.not.exist", "url": "" },
+      "evidence": { "passage": "", "location": "", "source_access": "none" },
+      "verdict": "reference_not_found",
+      "explanation": "No publication could be found for this DOI or reference. It may be incorrect or fabricated.",
+      "confidence": 0.2,
+      "flags": ["doi_not_found", "needs_human_review"],
+      "review": { "status": "pending", "reviewer_note": "", "history": [] }
+    }
+  ]
+}
